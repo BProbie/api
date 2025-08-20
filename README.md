@@ -1,7 +1,8 @@
 ### **Chinese Introduction(There are the English translation below the passage)**  
 ### **中文详解(英语翻译内容在下面)**  
 ---
-- #### 一个用Java编写的集成工具包，将许多繁琐但功能实用的代码封装成通俗易懂的方法，对初入Java的学习者十分友好！
+### 简介
+- #### 一个用Java编写的集成工具包，将繁琐但功能实用的代码封装成通俗易懂的方法，对初入Java的学习者十分友好！
 - #### 下载：download/Tools-x.x.jar
 - #### 更新：通过调用Tools.java中的renew()方法可以实现新版本的检测并下载
 - #### 依赖：JDK-21.0.8 Gradle-8.7 Shadow-8.1.1
@@ -37,6 +38,7 @@
 ### **英文详解(中文翻译内容在上面)**  
 ### **出自有道翻译(From Youdao Translation)** 
 ---
+### Introduction
 - #### An integrated toolkit written in Java that encapsulates a lot of cumbersome but functional code into easy-to-understand methods,which is very friendly to beginners in Java!
 - #### download: download/Tools-x.x.jar
 - #### update: the new version can be detected and downloaded by calling the renew() method in Tools.java
@@ -69,4 +71,5 @@
 <br>
 <br>
 
-# **更多内容请关注(Learn More About): https://github.com/BProbie**
+# **更多内容请关注(Learn More About): **  
+# **https://github.com/BProbie**
