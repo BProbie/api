@@ -71,5 +71,5 @@
 <br>
 <br>
 
-# **更多内容请关注(Learn More About): **  
+# **更多内容请关注(Learn More About): **
 # **https://github.com/BProbie**
