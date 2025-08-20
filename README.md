@@ -47,10 +47,10 @@
 - #### download: download/Tools-x.x.jar
 - #### update: the new version can be detected and downloaded by calling the renew() method in Tools.java
 - #### dependencies: JDK-21.0.8 Gradle-8.7 Shadow-8.1.1
-- #### the main class: SRC/main/Java/com/program/probie/view Java
-- #### Method Pack 1: SRC/main/Java/com/program/probie/ProgrameTool (perfect)
-- #### Method Pack 2: SRC/main/Java/com/program/probie/ModTool (for)
-- #### Method Pack 3: SRC/main/Java/com/program/probie/PluginTool (for)
+- #### the main class: src/main/Java/com/program/probie/view Java
+- #### Method Pack 1: src/main/Java/com/program/probie/ProgrameTool (perfect)
+- #### Method Pack 2: src/main/Java/com/program/probie/ModTool (for)
+- #### Method Pack 3: src/main/Java/com/program/probie/PluginTool (for)
 ---
 ### Method Package 1
 - #### Computer: contains some simple operations on the operating system
@@ -79,5 +79,7 @@
 
 
 
-# **更多内容请关注(Learn More About): **  
+# **更多内容请关注(Learn More About): **
+<br>
+
 # **https://github.com/BProbie**
