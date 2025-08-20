@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.program.probie.Tools
+Class-Path: junit-platform-commons-1.10.0.jar junit-jupiter-5.10.0.jar j
+ unit-jupiter-engine-5.10.0.jar junit-jupiter-params-5.10.0.jar junit-pl
+ atform-launcher-1.10.0.jar junit-platform-engine-1.10.0.jar junit-jupit
+ er-api-5.10.0.jar opentest4j-1.3.0.jar
+
