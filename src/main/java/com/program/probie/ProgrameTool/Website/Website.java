@@ -1,11 +1,11 @@
 package com.program.probie.ProgrameTool.Website;
 
-import javax.net.ssl.SSLHandshakeException;
-import java.nio.file.StandardCopyOption;
+import java.io.*;
+import java.net.URL;
 import java.nio.file.Files;
 import java.util.ArrayList;
-import java.net.URL;
-import java.io.*;
+import java.nio.file.StandardCopyOption;
+import javax.net.ssl.SSLHandshakeException;
 
 public class Website {
 

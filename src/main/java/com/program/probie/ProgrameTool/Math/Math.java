@@ -1,6 +1,8 @@
 package com.program.probie.ProgrameTool.Math;
 
 import java.util.Calendar;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import com.program.probie.ProgrameTool.Type.Time;
 
 public class Math {
@@ -11,6 +13,10 @@ public class Math {
     public static double sin(double num) {return java.lang.Math.sin(num);}
     public static double cos(double num) {return java.lang.Math.cos(num);}
     public static double tan(double num) {return java.lang.Math.tan(num);}
+
+    public static float getFloat(float number, int count) {
+        return new BigDecimal(number).setScale(count, RoundingMode.HALF_UP).floatValue();
+    }
 
     public static long getMillisTime() {
         return System.currentTimeMillis();

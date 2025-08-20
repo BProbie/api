@@ -27,11 +27,18 @@ public class Mysql {
             connection = DriverManager.getConnection("jdbc:mysql://"+host+"/"+useDatabase+"?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true",user,password);
             isConnection = true;
         } catch (SQLException | ClassNotFoundException error) {
-            error.printStackTrace();
+            noConnection(error);
         }
         return isConnection;
     }
-    private void noConnection() {System.out.println("Tools.Mysql.Error>"+" "+"Can Not Found Connection");}
+
+    private void noConnection() {
+        System.out.println("Tools.Mysql.Error>"+" "+"Can Not Found Connection");
+    }
+    private void noConnection(Object reason) {
+        System.out.println("Tools.Mysql.Error>"+" "+"Can Not Found Connection");
+        System.out.println(reason.toString());
+    }
 
     public boolean runSafeCommand(String command) {
         if (isConnection) {

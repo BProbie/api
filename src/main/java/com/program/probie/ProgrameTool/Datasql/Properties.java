@@ -20,11 +20,18 @@ public class Properties {
             properties.load(new InputStreamReader(new FileInputStream(getFilePath()),StandardCharsets.UTF_8));
             isConnection = true;
         } catch (IOException ioException) {
-            ioException.printStackTrace();
+            noConnection(ioException);
         }
         return isConnection;
     }
-    private void noConnection() {System.out.println("Tools.Properties.Error>"+" "+"Can Not Find Connection");}
+
+    private void noConnection() {
+        System.out.println("Tools.Properties.Error>"+" "+"Can Not Found Connection");
+    }
+    private void noConnection(Object reason) {
+        System.out.println("Tools.Properties.Error>"+" "+"Can Not Found Connection");
+        System.out.println(reason.toString());
+    }
 
     public boolean save() {
         if (isConnection) {

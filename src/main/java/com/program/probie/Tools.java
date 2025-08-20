@@ -12,8 +12,8 @@ public class Tools {
     public static String toolsName = "Tools";
     public static String author = "Probie";
 
-    private static final String renewFile = "https://raw.githubusercontent.com/BProbie/project/Tools/download/Tools-"+toolsVersion+".jar";
-    private static final String renewConfig = "https://raw.githubusercontent.com/BProbie/project/Tools/download/Tools.renew";
+    private static final String renewFile = "https://raw.githubusercontent.com/BProbie/api/Tools/download/Tools-"+toolsVersion+".jar";
+    private static final String renewConfig = "https://raw.githubusercontent.com/BProbie/api/Tools/download/Tools.renew";
 
     public static void renew() {
         Object[] values = null;
