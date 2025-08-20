@@ -1,3 +1,4 @@
+<!--这里是中文-->
 ### **Chinese Introduction(There are the English translation below the passage)**  
 ### **中文详解(英语翻译内容在下方)**
 ---
@@ -32,14 +33,10 @@
 
 ---
 
-
-
+<!--小清屏-->
 <br>
 <br>
 <br>
-<br>
-<br>
-
 
 <!--这里是英文-->
 ### **English Introduction(There are the Chinese translation Above the passage)**  
@@ -77,15 +74,11 @@
 
 ---
 
-
-
-<br>
-<br>
+<!--小清屏-->
 <br>
 <br>
 <br>
 
-
-
+<!--这里是后记-->
 # **更多内容请关注(Learn More About)：**  
 # **https://github.com/BProbie**
