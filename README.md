@@ -1,5 +1,8 @@
 ## A pixel learning recognition microalgorithm API model based on the CNN convolutional neural network structure theory and developed using pure native Java
-## 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型  
+## 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型
+
+<br>
+<br>
 
 # Get started quickly! (快速上手)
 
@@ -9,7 +12,7 @@
 
 ## https://github.com/BProbie/api/raw/refs/heads/MyEyes/release/MyEyes.jar
 
-
+<br>
 
 ## The API mainly maintain three objects (主要维护)
 
@@ -25,7 +28,7 @@ Picture picture = new Picture(); // com.probie.Picture || com.probie.Factory.Pic
 Pictures pictures = new Pictures(); // com.probie.Pictures || com.probie.Factory.PicturesFactory
 ```
 
-
+<br>
 
 ## How to study pictures?  (学习)
 
@@ -46,7 +49,7 @@ Pictures pictures = new Pictures("D:\\pictures\\*.png");
 pictures.study();
 ```
 
-
+<br>
 
 ## How to identification any picture? (识别)
 
@@ -56,7 +59,7 @@ Picture picture = new Picture("D:\\pictures\\x.png");
 System.out.println(picture.guess()); // if the picture is a the result maybe: "a"
 ```
 
-
+<br>
 
 ## You can use chain to code! (链式编程)
 
@@ -67,7 +70,8 @@ Picture picture = new Picture().setPicture("D:\pictures\cat.png").setValues(new 
 System.out.println(picture.setPicture("https://raw.githubusercontent.com/BProbie/api/refs/heads/MyEyes/MyEyes/Picture/cat.png").clone().guess());
 ```
 
-
+<br>
+<br>
 
 # More functions! (更多功能)
 
@@ -85,7 +89,7 @@ if (picture.isInPicture(screen)) {
 }
 ```
 
-
+<br>
 
 ## Maybe we can use cache to boost the speed! (缓存)
 
@@ -96,7 +100,8 @@ if (!cat.isCache()) {
 }
 ```
 
-
+<br>
+<br>
 
 # Last but not least! (边角料)
 
@@ -120,7 +125,7 @@ eyes.setSimpleSize(40);
 eyes.setAmplifyTime(3);
 ```
 
-
+<br>
 
 ## Another parameter may few be used (不重要的方法、形参)
 
@@ -143,7 +148,7 @@ String simpleName = picture.getSimpleName();
 String uid = picture.getUID();
 ```
 
-
+<br>
 
 ## Some explanation! (重要说明)
 
@@ -171,13 +176,15 @@ Pictures pictures = new Pictures("D:\\pictures\\*.jpg");
 // "0-0.png" "0-1.png" "0-2.png" "0 - ababa.png" We can import them default "0"
 ```
 
-
+<br>
+<br>
 
 # Deeply use it! (深入探索)
 
 ## If you want to explore the API in depth, download the MyEyes.jar file in the release folder and play with it, so you can experience more as you go. Or you can also try reading the source code, activate your brain and explore more ways to play by yourself. If you have better optimization suggestions or update content, please post your opinions in issues!
 
-
+<br>
+<br>
 
 # Implementation principle (原理)
 
@@ -229,7 +236,8 @@ average = (average+amplifyRGB[x][y])/2;
 
 ## Finally we get the result!
 
-
+<br>
+<br>
 
 # Postscript (后记)
 
@@ -253,3 +261,4 @@ average = (average+amplifyRGB[x][y])/2;
 
 
 # https://github.com/BProbie
+
