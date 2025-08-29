@@ -1,6 +1,5 @@
 ## A pixel learning recognition microalgorithm API model based on the CNN convolutional neural network structure theory and developed using pure native Java
-
-## 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型
+## 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型  
 
 # Get started quickly! (快速上手)
 
@@ -251,5 +250,6 @@ average = (average+amplifyRGB[x][y])/2;
 
 
 # Learn More About (更多内容请关注)
+
 
 # https://github.com/BProbie
