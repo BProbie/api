@@ -1,6 +1,7 @@
-## A pixel learning recognition microalgorithm API model based on the CNN convolutional neural network structure theory and developed using pure native Java
-## 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型
+# A pixel learning recognition microalgorithm API model based on the CNN convolutional neural network structure theory and developed using pure native Java
+# 一个基于CNN卷积神经网络结构理论使用纯原生Java开发的像素学习识别微算法API模型
 
+<br>
 <br>
 <br>
 
@@ -72,6 +73,7 @@ System.out.println(picture.setPicture("https://raw.githubusercontent.com/BProbie
 
 <br>
 <br>
+<br>
 
 # More functions! (更多功能)
 
@@ -100,6 +102,7 @@ if (!cat.isCache()) {
 }
 ```
 
+<br>
 <br>
 <br>
 
@@ -178,11 +181,13 @@ Pictures pictures = new Pictures("D:\\pictures\\*.jpg");
 
 <br>
 <br>
+<br>
 
 # Deeply use it! (深入探索)
 
 ## If you want to explore the API in depth, download the MyEyes.jar file in the release folder and play with it, so you can experience more as you go. Or you can also try reading the source code, activate your brain and explore more ways to play by yourself. If you have better optimization suggestions or update content, please post your opinions in issues!
 
+<br>
 <br>
 <br>
 
@@ -241,6 +246,7 @@ average = (average+amplifyRGB[x][y])/2;
 
 <br>
 <br>
+<br>
 
 # Postscript (后记)
 
@@ -258,11 +264,14 @@ average = (average+amplifyRGB[x][y])/2;
 
 ## Thanks: []
 
-
+<br>
+<br>
+<br>
 
 # Learn More About (更多内容请关注)
 
 
 # https://github.com/BProbie
+
 
 
