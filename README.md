@@ -1,1 +1,1 @@
-# Please Check My API In The Tree!
+# 跳转链接: https://github.com/BProbie/Encryption
